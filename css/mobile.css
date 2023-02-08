@@ -1,0 +1,37 @@
+/*MOBILE-RULES*/
+@media screen and (max-width:767px) {
+    .mail-lin{
+        display: none;
+    }
+    .menu-link{
+        display: none;
+    }
+    .phone-lin{
+        display: none;
+    }
+    .team-icon:not(:last-child){
+        margin-bottom: 72px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .container{
+        width: 448px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        width: 736px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container{
+        width: 1200px;
+    }
+}
+
+
+

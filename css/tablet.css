@@ -1,0 +1,107 @@
+/* TABLET-RULES */
+@media screen and (min-width:768px) and (max-width:1199px){
+    .container{
+        width: 768px;
+    }
+    .mobile-menu-open{
+        display: none;
+    }
+    .logo{
+        margin-right: 123px;
+    }
+    .menu-item:not(:last-child){
+        margin-right: 40px;
+    }
+    .menu-link{
+        padding-bottom:20px;
+    }
+    
+    .mail-lin{
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+    }
+    .phone-lin{
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+    }
+    .page-header{
+        height: 70px;
+    }
+    .hero{
+        padding-bottom: 108px;
+        background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../imeges/tablet-hero.jpg);
+    }
+    .hero-title{
+        line-height: 1.07;
+        margin-bottom: 40px;
+    }
+    .modal{
+        width: 408px;
+        padding: 72px 24px 24px 24px;
+    }
+    .list-description{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-basis: calc(100%-3*24/4); */
+        column-gap: 24px;
+        /* row-gap: 72px; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .list-text{
+        width: 356px;
+    }
+    .title-description{
+        text-align: start;
+    }
+    .section{
+        padding-bottom: 104px;
+    }
+    .list-team{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-basis: calc(100%-3*24/4); */
+        /* gap: 24px; */
+        justify-content: center;
+        row-gap: 64px;
+        column-gap: 24px;
+    }
+    .team-icon{
+        margin: 0px;
+    }
+    .logo-footer{
+        display: flex;
+        align-items: center;
+    }
+    .footer-content{
+        display: flex;
+        flex-wrap: wrap; 
+        column-gap: 24px; 
+        justify-content: center;
+        text-align: start;
+    }
+    .footer-input-sign-up{
+        margin-right: 24px;
+        width: 264px;
+    }
+}
+
+
+@media screen and (max-width: 1199px){
+    .services-section{
+        display: none;
+    }
+    .description-icon{
+        display: none;
+    }
+    .section{
+        display: flex;
+        justify-content: center;
+    }
+    .customers-logo{
+        padding: 16px 32px 16px 32px;
+    }
+}
