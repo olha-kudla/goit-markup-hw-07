@@ -181,7 +181,10 @@ body{
     display: flex;
     align-items: center;
 }
-
+.mob-nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
 /*DESKTOP*/
 /* .contact-phone-mail{
     display: flex;
@@ -224,9 +227,11 @@ body{
     background-color:#FFFFFF;
 }
 .mobile-menu{
+    display: flex;
+    /* flex-direction: column; */
     position: fixed;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     top: 0;
     left: 0;
     z-index: 1000;
@@ -255,6 +260,8 @@ body{
     border-radius: 50%;
 }
 .mobile-menu-container{
+    display: flex;
+    flex-direction: column;
     position: relative;
     padding: 40px;
 }
@@ -296,8 +303,12 @@ body{
 }
 .mobile-menu-item-list{
     margin-top: 16px;
-    margin-bottom: 234px;
+    margin-bottom: auto;
 }
+.mobile-menu-item{
+    margin-bottom: auto;
+}
+
 .mobile-contact-phone-number{
     margin-bottom: 40px;
 }
@@ -641,9 +652,10 @@ transition-timing-function: var(--accent-color);
 /* .subtitle-description{
     flex-wrap: wrap;
 } */
-.list-text:not(:last-child){
-    margin-bottom: 72px;
-}
+/*----------------------------------------------*/
+/* .list-text:not(:last-child){
+    margin-bottom: 72px; 
+} */
 
 /*виставляємо елементи у рядок*/
 /*DESKTOP*/
