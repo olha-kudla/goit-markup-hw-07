@@ -12,11 +12,19 @@
     .team-icon:not(:last-child){
         margin-bottom: 72px;
     }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../imeges/hero-mob-2x.jpg);
+        }
+    }
 }
 
 @media screen and (min-width: 480px) {
     .container{
-        width: 448px;
+        width: 428px;
         margin-right: auto;
         margin-left: auto;
     }

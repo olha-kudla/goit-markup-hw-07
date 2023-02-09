@@ -1,4 +1,7 @@
 @media screen and (min-width:1200px){
+    .container{
+        width: 1128px;
+    }
     .mobile-menu-open{
         display: none;
     }
@@ -97,7 +100,7 @@
     .costumers-list{
         flex-wrap: nowrap;
         gap: 24px;
-        padding-bottom: 120px; /*120*/
+        padding-bottom: 120px;
     }
     .customers-logo{
         width: 168px;
@@ -147,5 +150,13 @@
         width: 408px;
         height: 576px;
         padding: 72px 24px 24px 24px;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../imeges/people-office-2x.jpg);
+        }
     }
 }
