@@ -87,6 +87,9 @@
         justify-content: center;
         text-align: start;
     }
+    .footer-social-list{
+        margin-bottom: 0px;
+    }
     .footer-input-sign-up{
         margin-right: 24px;
         width: 264px;
