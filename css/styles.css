@@ -319,7 +319,7 @@ body{
     display: flex;
     align-items: center;
     /* gap: 56px; */
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .mobile-social-list-link{
     display: flex;
