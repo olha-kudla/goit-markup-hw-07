@@ -20,11 +20,12 @@
             linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../imeges/hero-mob-2x.jpg);
         }
     }
-    /*---------------------------*/
     .list-text:not(:last-child){
         margin-bottom: 72px;
     }
-    /*------------------------------*/ 
+    .sign-up{
+        margin-top: 72px;
+    }
 }
 
 @media screen and (min-width: 480px) {
@@ -40,11 +41,12 @@
         width: 736px;
     }
 } */
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
     .container{
         width: 1200px;
     }
-}
+} */
+
 
 
 
