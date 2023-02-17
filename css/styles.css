@@ -352,6 +352,8 @@ body{
     background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../imeges/mobile-hero.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     /* background-size: 428px 432px;   */
 }
 /**/
@@ -1057,17 +1059,19 @@ padding: 32px 16px 32px 16px;
 /* /FOOTER */
 
 /* CUSTOMERS */
-.title-costumers{
+.custumers{
     padding-top: 96px; /*130*/
+    padding-bottom: 96px;
 }
+
 .costumers-list{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     /* gap: 24px; */ /*DESKTOP*/
     row-gap: 72px;
-    column-gap: 16px;
-    padding-bottom: 96px; /*120*/
+    column-gap: 24px;
+    /* padding-bottom: 96px; */
 }
 .customers-logo{
     display: flex;

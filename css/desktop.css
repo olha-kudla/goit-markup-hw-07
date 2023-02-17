@@ -1,6 +1,6 @@
 @media screen and (min-width:1200px){
     .container{
-        width: 1128px;
+        width: 1158px;
     }
     .mobile-menu-open{
         display: none;
@@ -94,13 +94,14 @@
         flex-basis: calc(100%-3*24/4);
         gap: 24px;
     }
-    .title-costumers{
+    .custumers{
         padding-top: 120px;
+        padding-bottom: 120px;
     }
     .costumers-list{
         flex-wrap: nowrap;
         /* gap: 24px; */
-        padding-bottom: 120px;
+        /* padding-bottom: 120px; */
     }
     .customers-logo{
         width: 168px;
