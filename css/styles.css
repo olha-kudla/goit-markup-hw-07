@@ -269,7 +269,7 @@ body{
 .mobile-menu-link{
     font-family: var(--primary-font);
     font-weight: 700;
-    font-size: 24px; /*36*/
+    font-size: 36px; /*36*/
     line-height: 1.11;
     color: #2E2F42;
     letter-spacing: 0.02em;
@@ -283,7 +283,7 @@ body{
 .mobile-contact-phone-number{
     font-family: var(--primary-font);
     font-weight: 600;
-    font-size: 24px; /*36*/
+    font-size: 36px; /*36*/
     line-height: 1.11;
     text-transform: capitalize;
     color: #4D5AE5;

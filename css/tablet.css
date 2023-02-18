@@ -35,7 +35,7 @@
     .hero{
         padding-bottom: 108px;
         background-image:
-    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../imeges/people-office.jpg);
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../imeges/tablet-hero.jpg);
     }
     .hero-title{
         line-height: 1.07;
@@ -99,7 +99,7 @@
     (min-resolution: 2dppx) {
         .hero {
             background-image:
-            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../imeges/people-office-2x.jpg);
+            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../imeges/hero-tab-2x.jpg);
         }
     }
       .list-text:not(:last-child){
