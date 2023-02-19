@@ -240,6 +240,14 @@ body{
     visibility: hidden;
     pointer-events: none;
     /* transition: opacity 250ms linear, visibility 250ms linear; */
+    
+    transform:translateX(0%);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function:var(--animation-timing-function);
+}
+.monile-menu.is-open{
+    transform: translateX(100%);
 }
 
 .mobile-menu.is-open{

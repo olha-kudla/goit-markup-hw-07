@@ -34,15 +34,15 @@
       <li class="contact-mail-adress"><a class="mail-lin link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
       <li class="contact-phone-number"><a class="phone-lin link" href="tel:+11(000)1111111">+11 (000) 111-11-11</a></li>
   </ul>
-  <button type="button" class="mobile-menu-open" data-menu-open>
+  <button type="button" class="mobile-menu-open js-open-menu">
     <svg class="mobile-menu-open-btn" width="32" height="22">
       <use href="./imeges/sprite.svg#hamburger"></use></svg>
   </button>
 </div>
 <!--MOBILE MENU-->
-<div class="mobile-menu" data-menu>
+<div class="mobile-menu js-menu-container">
   <div class="mobile-menu-container container overlay">
-    <button type="button" class="close-btn-mobile-menu" data-menu-close>
+    <button type="button" class="close-btn-mobile-menu js-close-menu">
       <svg class="close-menu-mobile-icon" width="8" height="8">
         <use href="./imeges/sprite.svg#icon-modal-close"></use>
       </svg>
@@ -485,5 +485,11 @@
   </div>
 </footer>
 <script src="./js/modal.js"></script>
-<script src="./js/mobile-menu.js"></script>
+<script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+<script defer src="./js/mobile-menu.js"></script>
 </body>
